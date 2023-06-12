@@ -1,0 +1,49 @@
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="firstname" value="{{this.firstname}}" placeholder="First Name" name="firstname">
+      <label for="floatingInput">First Name</label>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="lastname" value="{{this.lastname}}" placeholder="Last Name" name="lastname">
+      <label for="floatingInput">Last Name</label>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="email" value="{{this.email}}" placeholder="email@email.com" name="email">
+      <label for="floatingInput">Email</label>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="phone" value="{{this.phone}}" placeholder="Phone" name="phone">
+      <label for="floatingInput">Phone</label>
+    </div>
+  </div>
+   <div class="col-6">
+    <div class="form-floating mb-3">
+      <input type="password" class="form-control" id="password" value="{{this.password}}" placeholder="email@email.com" name="password">
+      <label for="floatingInput">Password</label>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input type="password" class="form-control" id="confirmpassword" value="{{this.confirmpassword}}" placeholder="Phone" name="confirmpassword">
+      <label for="floatingInput">Confirme Password</label>
+    </div>
+  </div>
+    <div class="col-6">
+    <div class="form-floating mb-3">
+      {{!-- <input type="text" class="form-control" id="role" value="{{this.role}}" placeholder="Phone" name="role"> --}}
+      <select name="role" class="form-control" value="{{this.role}}">
+      <option value="Admin">Admin</option>
+      <option value="User">User</option>
+    </select>
+      <label for="floatingInput">Role</label>
+    </div>
+  </div>
+  <div class="col-12 d-grid">
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </div>
